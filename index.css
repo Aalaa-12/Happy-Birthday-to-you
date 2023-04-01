@@ -1,0 +1,95 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: url(VANILLIA.webp);
+    background-color: black;
+}
+header{
+    height: 150px;
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* background-image: url(h.png); */
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    right: 90px;
+    margin-bottom: 200px;
+}
+h1{
+    font-family: 'Alkatra', cursive;
+    font-size: 100px;
+    color: gold;
+}
+h1 span{
+    color: #2cb7f5;
+}
+h3{
+    font-size: 30px;
+    color: blue;
+}
+
+.PHOTOS{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+img:first-child{
+    position: absolute;
+    left: 0;
+    width: 400px;
+}
+.two{
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: 800px;
+}
+.three{
+    position: absolute;
+    left: 0;
+    width: 400px;
+    top: 1200px;
+}
+.four{
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: 1600px;
+}
+.five{
+    position: absolute;
+    left: 0;
+    width: 400px;
+    top: 2000px;
+}
+.six{
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: 2400px;
+}
+.seven{
+    position: absolute;
+    left: 0;
+    width: 400px;
+    top: 2800px;
+}
+.eight{
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: 3200px;
+}
+.nine{
+    position: absolute;
+    left: 0;
+    width: 400px;
+    top: 3600px;
+}

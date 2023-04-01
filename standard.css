@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-font--: 'IBM Plex Sans Arabic', sans-serif;
+    --wrong-color--: gold;
+    --b-wrong-color--: rgb(101, 164, 245);
+}
+body{
+    scrollbar-color: gold;
+}
+
+
+
+@media iponex{
+    header{
+        width: 230px;
+    }
+}
+
+
+@media (max-width:1024) and (min-width:374){
+    header{
+        top: 100px;
+        width: 230px;
+    }
+    img:first-child{
+        position: absolute;
+        left: 0;
+        width: 400px;
+    }
+    .two{
+        position: absolute;
+        right: 0;
+        width: 400px;
+        top: 800px;
+    }
+    .three{
+        position: absolute;
+        left: 0;
+        width: 400px;
+        top: 1200px;
+    }
+    .four{
+        position: absolute;
+        right: 0;
+        width: 400px;
+        top: 1600px;
+    }
+    .five{
+        position: absolute;
+        left: 0;
+        width: 400px;
+        top: 2000px;
+    }
+    .six{
+        position: absolute;
+        right: 0;
+        width: 400px;
+        top: 2400px;
+    }
+    .seven{
+        position: absolute;
+        left: 0;
+        width: 400px;
+        top: 2800px;
+    }
+    .eight{
+        position: absolute;
+        right: 0;
+        width: 400px;
+        top: 3200px;
+    }
+    .nine{
+        position: absolute;
+        left: 0;
+        width: 400px;
+        top: 3600px;
+    }
+}
